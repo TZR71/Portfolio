@@ -8,4 +8,5 @@ h1 {
 footer {
   font-weight: 400;
   font-family: "tangerine";
+  text-shadow: 4px 4px 4px #aaa;
 }
