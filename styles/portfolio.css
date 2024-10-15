@@ -1,12 +1,44 @@
-body {
-  background-color: palegoldenrod;
+:root {
+    --background: linear-gradient(106.5deg, rgba(255, 215, 185, 0.91) 23%, rgba(223, 159, 247, 0.8) 93%);
+    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    --text-shadow: 4px 4px 4px #aaa;
+    --margin:15px;
+    --border-radius:6px;
+}body {
+  font-family:"poppins" ;
 }
-h1 {
-  color: white;
-  font-family: "Poppins", serif;
+h1 {  
+  font-family: "tangerine";
+  font-weight: 700;
+  font-size: 96px;
+  text-shadow:var(--text-shadow)
+}
+h2{
+  margin:var(--margin)
+  
+}
+p{
+  font-size: 40px;
+  margin:var(--margin)
 }
 footer {
   font-weight: 400;
   font-family: "tangerine";
-  text-shadow: 4px 4px 4px #aaa;
+  
+}
+
+.btn{    
+  box-shadow: var(--box-shadow);
+  margin: var(--margin)
+ 
+  
+
+}
+.container{
+  background: var(--background);
+  text-align: center;
+  border-radius: var(--border-radius);
+  border: 0.5px solid;
+  padding: 20px;
+  margin: 40px;
 }
