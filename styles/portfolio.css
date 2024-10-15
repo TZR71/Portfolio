@@ -1,6 +1,11 @@
-body{
-    background-color: palegoldenrod;
+body {
+  background-color: palegoldenrod;
 }
-h1{
-    color:white;
+h1 {
+  color: white;
+  font-family: "Poppins", serif;
+}
+footer {
+  font-weight: 400;
+  font-family: "tangerine";
 }
