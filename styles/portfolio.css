@@ -1,44 +1,70 @@
 :root {
-    --background: linear-gradient(106.5deg, rgba(255, 215, 185, 0.91) 23%, rgba(223, 159, 247, 0.8) 93%);
+    --background: linear-gradient(106.5deg, rgba(255, 215, 185, 0.61) 23%, rgba(223, 159, 247, 0.5) 93%);
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
     --text-shadow: 4px 4px 4px #aaa;
     --margin:15px;
     --border-radius:6px;
 }body {
   font-family:"poppins" ;
+  margin: 60px auto;
 }
 h1 {  
   font-family: "tangerine";
   font-weight: 700;
-  font-size: 96px;
-  text-shadow:var(--text-shadow)
+  font-size: 120px;
+  text-shadow:var(--text-shadow);
+  
 }
 h2{
   margin:var(--margin)
   
+  
 }
-p{
+h3{
   font-size: 40px;
-  margin:var(--margin)
+  margin-top: 40px;
+  
+}
+
+p{
+  font-size: 20px;
+  text-align: center;
+  
 }
 footer {
   font-weight: 400;
   font-family: "tangerine";
   
 }
+.header{
+  justify-content: space-between;
+  padding: 25px;
+}
 
 .btn{    
   box-shadow: var(--box-shadow);
-  margin: var(--margin)
+  margin: var(--margin);
+  margin:0 auto;
+  display: block; 
  
-  
 
 }
-.container{
-  background: var(--background);
-  text-align: center;
+
+.top-container{
+  background: var(--background);  
   border-radius: var(--border-radius);
   border: 0.5px solid;
-  padding: 20px;
+  padding: 40px;
   margin: 40px;
+  display: flex;
+
+  
+ 
+  
+  
+  
 }
+.main-container{
+  text-align: center;
+}
+
