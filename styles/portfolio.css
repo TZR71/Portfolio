@@ -11,7 +11,7 @@
 h1 {  
   font-family: "tangerine";
   font-weight: 700;
-  font-size: 120px;
+  font-size: 150px;
   text-shadow:var(--text-shadow);
   
 }
@@ -36,35 +36,41 @@ footer {
   font-family: "tangerine";
   
 }
-.header{
-  justify-content: space-between;
-  padding: 25px;
-}
+
 
 .btn{    
   box-shadow: var(--box-shadow);
   margin: var(--margin);
   margin:0 auto;
-  display: block; 
- 
+  display: block;  
 
 }
 
+.btn-secondary{
+  background: var(--background);
+  border-radius: var(--border-radius);
+  color: white;
+  font-size: 25px; 
+  margin-top: 30px;
+  padding:40px 15px;
+  
+  
+}
 .top-container{
   background: var(--background);  
   border-radius: var(--border-radius);
   border: 0.5px solid;
   padding: 40px;
   margin: 40px;
-  display: flex;
-
-  
- 
-  
-  
-  
+  display:block; 
+  text-align: center; 
 }
 .main-container{
   text-align: center;
 }
-
+@media(max-width:600px){
+  .btn-secondary{
+    font-size: 10px;
+    color:black;
+  }
+}
