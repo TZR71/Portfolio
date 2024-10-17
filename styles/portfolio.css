@@ -1,106 +1,104 @@
 :root {
-    --background: linear-gradient(106.5deg, rgba(255, 215, 185, 0.61) 23%, rgba(223, 159, 247, 0.5) 93%);
-    --box-shadow: 0 5px 10px rgba(223, 159, 247, 0.5);
-    --text-shadow: 4px 4px 4px #c3c1c1;
-    --margin:15px;
-    --border-radius:6px;
-    --border: 0.5px solid rgba(62, 2, 84, 0.5);
-}body {
-  font-family:"poppins" ;
+  --background: linear-gradient(
+    106.5deg,
+    rgba(255, 215, 185, 0.61) 23%,
+    rgba(223, 159, 247, 0.5) 93%
+  );
+  --box-shadow: 0 5px 10px rgba(223, 159, 247, 0.5);
+  --text-shadow: 4px 4px 4px #c3c1c1;
+  --margin: 15px;
+  --border-radius: 6px;
+  --border: 0.5px solid rgba(62, 2, 84, 0.5);
+}
+body {
+  font-family: "poppins";
   margin: 60px auto;
 }
-h1 {  
+h1 {
   font-family: "tangerine";
   font-weight: 700;
   font-size: 150px;
-  text-shadow:var(--text-shadow);
-  
+  text-shadow: var(--text-shadow);
 }
-h2{
+h2 {
   margin-top: 25px;
   text-align: center;
   font-size: 40px;
-  text-shadow: var(--text-shadow);
-  
-  
-  
+  text-shadow:var(--text-shadow)
 }
-h3{
+h3 {
   font-size: 40px;
   margin-top: 40px;
-  
 }
 
-p{
+p {
   font-size: 20px;
   text-align: center;
-  
 }
 footer {
   font-weight: 400;
   font-family: "tangerine";
-  
 }
 
-
-.btn{    
+.btn {
   box-shadow: var(--box-shadow);
   margin: var(--margin);
-  margin:0 auto;
-  display: block;  
-
+  margin: 0 auto;
+  display: block;
 }
 
-.btn-secondary{
+.btn-secondary {
   background: var(--background);
   border-radius: var(--border-radius);
   color: white;
-  font-size: 25px; 
+  font-size: 25px;
   margin-top: 30px;
-  padding:40px 15px; 
-  
+  padding: 40px 15px;
 }
-.btn-outline-secondary{
+.btn-outline-secondary {
   margin-top: 50px;
 }
-.top-container{
-  background: var(--background);  
+.top-container {
+  background: var(--background);
   border-radius: var(--border-radius);
   border: var(--border);
   padding: 40px;
   margin: 40px;
-  display:block; 
-  text-align: center; 
-}
-.main-container{
+  display: block;
   text-align: center;
 }
-.col-sm-6{
+.main-container {
+  text-align: center;
+}
+.col-sm-6 {
   margin-top: 30px;
 }
-.img-fluid{
+.img-fluid {
   max-width: 80%;
-  margin:15px;
-  border: var(--border)
+  margin: 15px;
+  border: var(--border);
 }
-  
-@media(max-width:820px){
-  h1{
+
+@media (max-width: 820px) {
+  h1 {
     font-size: 70px;
-    
   }
-  h2{font-size: 20px;}
-  h3{
-    font-size:20px ;
+  h2 {
+    font-size: 20px;
   }
-  .btn-secondary{
+  h3 {
+    font-size: 20px;
+  }
+  .btn-secondary {
     font-size: 15px;
     width: 100px;
     height: 100px;
-    padding-top: 25px;}
+    padding-top: 25px;
+  }
 
-  .top-container{
-      padding: 5px 0 40px;
-      margin-top: 20px;
-}
+  .top-container {
+    padding: 5px 0 40px;
+    margin-top: 10px;
+  }
+  
 }
