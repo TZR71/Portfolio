@@ -37,13 +37,14 @@ p {
   font-size: 20px;
   text-align: center;
 }
+
 footer {
   font-weight: 400;
   font-family: "tangerine";
 }
 img{
-  max-height: 500px;
-  border-radius: var(--border-radius);
+  max-height: 500px; 
+ 
 }
 
 .btn {
@@ -86,7 +87,9 @@ img{
 .about-container{
   text-align: center;
 }
-
+.about{
+  padding-left: 60px;
+}
 
 @media (max-width: 820px) {
   h1 {
@@ -109,5 +112,8 @@ img{
     padding: 5px 0 40px;
     margin-top: 10px;
   }
-  
+
+
+
 }
+  
