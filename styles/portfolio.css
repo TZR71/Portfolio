@@ -208,6 +208,9 @@ nav li{
   .btn-secondary{    
     font-size: 15px;
   }
+  .footer-btn{
+    margin:33px;
+  }
 }
 
   
