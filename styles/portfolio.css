@@ -89,7 +89,7 @@ nav li{
   display: block;
 }
 
-.btn-secondary{
+.btn-secondary.col-3{
   background: var(--background);
   border-radius: var(--border-radius);
   color: black;
@@ -133,6 +133,16 @@ nav li{
   padding:10px 280px;
   margin:60px;
 }
+.btn-secondary{
+  background: var(--background);
+  border-radius: var(--border-radius);
+  color: black;
+  opacity: 70%;
+  font-size: 25px;
+  margin-top: 30px;
+  padding: 10px;
+  
+}
 .social-links a{
   margin: 25px 15px;
   background: var(--background);
@@ -172,6 +182,7 @@ nav li{
     width: 100px;
     height: 100px;
     padding-top: 35px;
+    margin:25px auto;
   }
 
   .top-container {
@@ -203,14 +214,15 @@ nav li{
   font-size: 15px;
 }
 .footer-contact-container{
-  padding:10px 20px;
+  padding:10px ;
 }
-  .btn-secondary{    
-    font-size: 15px;
+.btn-secondary{    
+ font-size: 12px;
+ padding: 10px;
+ margin:50px auto;
+ 
   }
-  .footer-btn{
-    margin:33px;
-  }
+ 
 }
 
   
